@@ -1,0 +1,42 @@
+{
+  "name": "music-streaming-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for Music Streaming Application",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "^14.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.0.0",
+    "@types/react": "^18.2.0",
+    "@types/node": "^18.0.0",
+    "tailwindcss": "^3.3.0",
+    "postcss": "^8.4.24",
+    "autoprefixer": "^10.4.14",
+    "redux": "^4.2.1",
+    "react-redux": "^8.1.2",
+    "@reduxjs/toolkit": "^1.9.5",
+    "axios": "^1.4.0",
+    "socket.io-client": "^4.6.1",
+    "zustand": "^4.4.0",
+    "framer-motion": "^10.12.16",
+    "react-icons": "^4.11.0",
+    "next-auth": "^4.22.1",
+    "react-query": "^3.39.3",
+    "react-hook-form": "^7.45.0",
+    "zod": "^3.21.4",
+    "clsx": "^1.2.1",
+    "tailwind-merge": "^1.14.0"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^18.2.0",
+    "eslint": "^8.45.0",
+    "eslint-config-next": "^14.0.0"
+  }
+}
